@@ -54,7 +54,7 @@ class Encrypt(threading.Thread):
         print( "Decrypted Messagepart : " + oldmsg )
 
 
-cutmsg = Encrypt.msg #Direkte übergabe
+
 threads = []
 start = []
 end = []
