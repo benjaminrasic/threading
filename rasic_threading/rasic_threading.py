@@ -39,7 +39,7 @@ class Encrypt(threading.Thread):
             elif x == " ":
                 newmsg = newmsg + " "
             else:
-                print("Please only use spaces and the abc! Unsuported Symbol!")
+                print("Please only use spaces and the abc! Unsupported Symbol!")
         print( "Enrypted Messagepart : " + newmsg )
 
         dc = {"B":"A", "C":"B", "D":"C", "E":"D", "F":"E", "G":"F", "H":"G", "I":"H", "J":"I", "K":"J", "L":"K", "M":"L", "N":"M", "O":"N", "P":"O", "Q":"P", "R":"Q", "S":"R", "T":"S", "U":"T", "V":"U", "W":"V", "X":"W", "Y":"X", "Z":"Y", "A":"Z"}
@@ -50,7 +50,7 @@ class Encrypt(threading.Thread):
             elif x == " ":
                 oldmsg = oldmsg + " "
             else:
-                print("Please only use spaces and the abc! Unsuported Symbol!")
+                print("Please only use spaces and the abc! Unsupported Symbol!")
         print( "Decrypted Messagepart : " + oldmsg )
 
 
